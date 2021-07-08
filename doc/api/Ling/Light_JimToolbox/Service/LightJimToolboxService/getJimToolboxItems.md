@@ -55,7 +55,7 @@ Returns array.
 
 Source Code
 ===========
-See the source code for method [LightJimToolboxService::getJimToolboxItems](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L108-L143)
+See the source code for method [LightJimToolboxService::getJimToolboxItems](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L109-L144)
 
 
 See Also

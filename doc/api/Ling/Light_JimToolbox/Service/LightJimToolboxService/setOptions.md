@@ -49,7 +49,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LightJimToolboxService::setOptions](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L65-L68)
+See the source code for method [LightJimToolboxService::setOptions](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L66-L69)
 
 
 See Also

@@ -54,7 +54,7 @@ Returns bool.
 
 Source Code
 ===========
-See the source code for method [LightJimToolboxService::unregisterJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L214-L230)
+See the source code for method [LightJimToolboxService::unregisterJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L228-L244)
 
 
 See Also

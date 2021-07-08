@@ -66,7 +66,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [LightJimToolboxService::getOption](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L83-L92)
+See the source code for method [LightJimToolboxService::getOption](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L84-L93)
 
 
 See Also

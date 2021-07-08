@@ -49,7 +49,7 @@ Returns array | false.
 
 Source Code
 ===========
-See the source code for method [LightJimToolboxService::getJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L163-L175)
+See the source code for method [LightJimToolboxService::getJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L177-L189)
 
 
 See Also

@@ -46,7 +46,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LightJimToolboxService::__construct](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L45-L48)
+See the source code for method [LightJimToolboxService::__construct](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L46-L49)
 
 
 See Also

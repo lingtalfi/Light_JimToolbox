@@ -5,12 +5,19 @@ use Ling\Light_Kit\Service\LightKitService;
 
 
 /**
+ *
+ *
+ *
  * Hi, don't forget to call our assets before including this template in your workflow:
  *
  * - /libs/universe/Ling/JimToolbox/jim-toolbox.css
  * - /libs/universe/Ling/JimToolbox/jim-toolbox.js
  *
  * Good luck!
+ *
+ *
+ * This template is designed to work with font-awesome icons.
+ *
  *
  */
 

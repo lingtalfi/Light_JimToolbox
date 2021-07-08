@@ -69,6 +69,10 @@ jim_toolbox_vars:
 History Log
 =============
 
+- 1.0.2 -- 2021-07-08
+
+    - add two flavours of templates: bootstrap and fontawesome
+  
 - 1.0.1 -- 2021-07-08
 
     - add dependencies to jimtoolbox planet (for assets)

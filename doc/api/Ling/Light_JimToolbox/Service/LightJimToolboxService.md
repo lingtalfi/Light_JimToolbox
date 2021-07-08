@@ -34,7 +34,7 @@ class <span class="pl-k">LightJimToolboxService</span>  {
     - public [setOptions](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/setOptions.md)(array $options) : void
     - public [getOption](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getOption.md)(string $key, ?$default = null, ?bool $throwEx = false) : void
     - public [getJimToolboxItems](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getJimToolboxItems.md)(?array $options = []) : array
-    - public [getTemplatePath](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getTemplatePath.md)() : string
+    - public [getTemplatePath](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getTemplatePath.md)(?string $name = null) : string
     - public [getJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getJimToolboxItem.md)(string $key) : array | false
     - public [registerJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/registerJimToolboxItem.md)(string $key, array $item) : void
     - public [unregisterJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/unregisterJimToolboxItem.md)(string $key) : bool

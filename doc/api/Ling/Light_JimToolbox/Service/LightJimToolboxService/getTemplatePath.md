@@ -16,12 +16,17 @@ Description
 ================
 
 
-public [LightJimToolboxService::getTemplatePath](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getTemplatePath.md)() : string
+public [LightJimToolboxService::getTemplatePath](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getTemplatePath.md)(?string $name = null) : string
 
 
 
 
 Returns the location of our default template.
+
+The name can be one of:
+
+- fontawesome
+- bootstrap
 
 
 
@@ -29,7 +34,10 @@ Returns the location of our default template.
 Parameters
 ================
 
-This method has no parameters.
+
+- name
+
+    
 
 
 Return values
@@ -46,7 +54,7 @@ Returns string.
 
 Source Code
 ===========
-See the source code for method [LightJimToolboxService::getTemplatePath](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L150-L153)
+See the source code for method [LightJimToolboxService::getTemplatePath](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L160-L167)
 
 
 See Also

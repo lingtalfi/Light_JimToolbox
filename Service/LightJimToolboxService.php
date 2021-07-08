@@ -5,6 +5,7 @@ namespace Ling\Light_JimToolbox\Service;
 
 
 use Ling\BabyYaml\BabyYamlUtil;
+use Ling\Bat\FileSystemTool;
 use Ling\Light\ServiceContainer\LightServiceContainerInterface;
 use Ling\Light_ControllerHub\Service\LightControllerHubService;
 use Ling\Light_JimToolbox\Exception\LightJimToolboxException;
@@ -145,11 +146,24 @@ class LightJimToolboxService
 
     /**
      * Returns the location of our default template.
+     *
+     * The name can be one of:
+     *
+     * - fontawesome
+     * - bootstrap
+     *
+     *
+     *
+     * @param string|null $name
      * @return string
      */
-    public function getTemplatePath(): string
+    public function getTemplatePath(string $name = null): string
     {
-        return $this->container->getApplicationDir() . "/templates/Ling.Light_JimToolbox/light_kit_jimtoolbox.inc.php";
+        if (null === $name) {
+            $name = "fontawesome";
+        }
+        $name = FileSystemTool::removeTraversalDots($name);
+        return $this->container->getApplicationDir() . "/templates/Ling.Light_JimToolbox/$name.php";
     }
 
 
