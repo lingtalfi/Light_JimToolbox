@@ -69,6 +69,11 @@ jim_toolbox_vars:
 History Log
 =============
 
+- 1.0.1 -- 2021-07-08
+
+    - add dependencies to jimtoolbox planet (for assets)
+    - add service->getJimToolboxItem method
+  
 - 1.0.0 -- 2021-07-08
 
     - initial commit

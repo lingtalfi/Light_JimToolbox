@@ -152,12 +152,36 @@ class LightJimToolboxService
         return $this->container->getApplicationDir() . "/templates/Ling.Light_JimToolbox/light_kit_jimtoolbox.inc.php";
     }
 
+
+    /**
+     * Returns the information about the jimtoolbox item identified by the given key, or false otherwise.
+     *
+     * @param string $key
+     * @return array|false
+     *
+     */
+    public function getJimToolboxItem(string $key): array|false
+    {
+        $file = $this->getJimToolboxItemsFile();
+        if (true === is_file($file)) {
+            $arr = BabyYamlUtil::readFile($file);
+        } else {
+            $arr = [];
+        }
+        if (true === array_key_exists($key, $arr)) {
+            return $arr[$key];
+        }
+        return false;
+    }
+
+
     /**
      * Registers a jim toolbox item.
      * See the @page(Light_JimToolbox conception notes) for more information.
      *
      * @param string $key
      * @param array $item
+     * @throws \Exception
      */
     public function registerJimToolboxItem(string $key, array $item)
     {

@@ -46,6 +46,11 @@ Return values
 Returns void.
 
 
+Exceptions thrown
+================
+
+- [Exception](http://php.net/manual/en/class.exception.php).&nbsp;
+
 
 
 
@@ -54,7 +59,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LightJimToolboxService::registerJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L162-L176)
+See the source code for method [LightJimToolboxService::registerJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L186-L200)
 
 
 See Also
@@ -62,5 +67,5 @@ See Also
 
 The [LightJimToolboxService](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService.md) class.
 
-Previous method: [getTemplatePath](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getTemplatePath.md)<br>Next method: [unregisterJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/unregisterJimToolboxItem.md)<br>
+Previous method: [getJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getJimToolboxItem.md)<br>Next method: [unregisterJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/unregisterJimToolboxItem.md)<br>
 
