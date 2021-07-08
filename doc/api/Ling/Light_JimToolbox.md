@@ -28,6 +28,7 @@ Table of contents
     - [LightJimToolboxService::getOption](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getOption.md) &ndash; Returns the option value corresponding to the given key.
     - [LightJimToolboxService::getJimToolboxItems](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getJimToolboxItems.md) &ndash; Returns the array of jim toolbox items.
     - [LightJimToolboxService::getTemplatePath](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getTemplatePath.md) &ndash; Returns the location of our default template.
+    - [LightJimToolboxService::getTemplateFlavours](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getTemplateFlavours.md) &ndash; Returns an array of the template names (to use with the getTemplatePath method) available to the user.
     - [LightJimToolboxService::getJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getJimToolboxItem.md) &ndash; Returns the information about the jimtoolbox item identified by the given key, or false otherwise.
     - [LightJimToolboxService::registerJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/registerJimToolboxItem.md) &ndash; Registers a jim toolbox item.
     - [LightJimToolboxService::unregisterJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/unregisterJimToolboxItem.md) &ndash; Unregisters a jim toolbox item, and returns whether the given key was actually registered.
@@ -37,6 +38,7 @@ Dependencies
 ============
 - [BabyYaml](https://github.com/lingtalfi/BabyYaml)
 - [Bat](https://github.com/lingtalfi/Bat)
+- [DirScanner](https://github.com/lingtalfi/DirScanner)
 - [JimToolbox](https://github.com/lingtalfi/JimToolbox)
 - [Light](https://github.com/lingtalfi/Light)
 - [Light_ControllerHub](https://github.com/lingtalfi/Light_ControllerHub)

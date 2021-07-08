@@ -49,7 +49,7 @@ Returns array | false.
 
 Source Code
 ===========
-See the source code for method [LightJimToolboxService::getJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L177-L189)
+See the source code for method [LightJimToolboxService::getJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L193-L205)
 
 
 See Also
@@ -57,5 +57,5 @@ See Also
 
 The [LightJimToolboxService](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService.md) class.
 
-Previous method: [getTemplatePath](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getTemplatePath.md)<br>Next method: [registerJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/registerJimToolboxItem.md)<br>
+Previous method: [getTemplateFlavours](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getTemplateFlavours.md)<br>Next method: [registerJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/registerJimToolboxItem.md)<br>
 

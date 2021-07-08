@@ -59,7 +59,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [LightJimToolboxService::registerJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L200-L214)
+See the source code for method [LightJimToolboxService::registerJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L216-L227)
 
 
 See Also

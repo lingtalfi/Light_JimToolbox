@@ -46,7 +46,7 @@ Returns string.
 
 Source Code
 ===========
-See the source code for method [LightJimToolboxService::getJimToolboxItemsFile](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L268-L272)
+See the source code for method [LightJimToolboxService::getJimToolboxItemsFile](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L281-L285)
 
 
 See Also

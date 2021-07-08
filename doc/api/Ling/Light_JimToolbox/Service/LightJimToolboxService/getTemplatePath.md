@@ -54,7 +54,7 @@ Returns string.
 
 Source Code
 ===========
-See the source code for method [LightJimToolboxService::getTemplatePath](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L160-L167)
+See the source code for method [LightJimToolboxService::getTemplatePath](https://github.com/lingtalfi/Light_JimToolbox/blob/master/Service/LightJimToolboxService.php#L161-L168)
 
 
 See Also
@@ -62,5 +62,5 @@ See Also
 
 The [LightJimToolboxService](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService.md) class.
 
-Previous method: [getJimToolboxItems](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getJimToolboxItems.md)<br>Next method: [getJimToolboxItem](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getJimToolboxItem.md)<br>
+Previous method: [getJimToolboxItems](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getJimToolboxItems.md)<br>Next method: [getTemplateFlavours](https://github.com/lingtalfi/Light_JimToolbox/blob/master/doc/api/Ling/Light_JimToolbox/Service/LightJimToolboxService/getTemplateFlavours.md)<br>
 

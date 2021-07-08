@@ -6,6 +6,7 @@ namespace Ling\Light_JimToolbox\Service;
 
 use Ling\BabyYaml\BabyYamlUtil;
 use Ling\Bat\FileSystemTool;
+use Ling\DirScanner\YorgDirScannerTool;
 use Ling\Light\ServiceContainer\LightServiceContainerInterface;
 use Ling\Light_ControllerHub\Service\LightControllerHubService;
 use Ling\Light_JimToolbox\Exception\LightJimToolboxException;
@@ -168,6 +169,21 @@ class LightJimToolboxService
 
 
     /**
+     * Returns an array of the template names (to use with the getTemplatePath method) available to the user.
+     * @return array
+     */
+    public function getTemplateFlavours(): array
+    {
+        $d = $this->container->getApplicationDir() . "/templates/Ling.Light_JimToolbox";
+        $ret = YorgDirScannerTool::getFilesWithExtension($d, "php", false,  false, true);
+        $ret = array_map(function($v){
+            return FileSystemTool::getBasename($v);
+        }, $ret);
+        return $ret;
+    }
+
+
+    /**
      * Returns the information about the jimtoolbox item identified by the given key, or false otherwise.
      *
      * @param string $key
@@ -204,9 +220,6 @@ class LightJimToolboxService
             $arr = BabyYamlUtil::readFile($file);
         } else {
             $arr = [];
-        }
-        if (true === array_key_exists($key, $arr)) {
-            throw new LightJimToolboxException("A jim toolbox item with the key $key already exists. Aborting.");
         }
 
         $arr[$key] = $item;
