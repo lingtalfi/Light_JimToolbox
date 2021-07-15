@@ -37,6 +37,9 @@ if (false === isset($_jimToolboxExecute)) {
     $_jimToolboxExecute = 'Ling\Light_JimToolbox\Controller\JimToolboxController->render';
 }
 
+if (false === isset($_jimToolboxIsVisible)) {
+    $_jimToolboxIsVisible = true;
+}
 
 
 
@@ -132,7 +135,7 @@ $items = $_ji->getJimToolboxItems([
             var jToolbox = $('.jim-toolbox');
             JimToolbox.init({
                 context: jToolbox,
-                isVisible: true,
+                isVisible: <?php echo $_jimToolboxIsVisible ? 'true' : 'false'; ?>,
             });
         });
     });
