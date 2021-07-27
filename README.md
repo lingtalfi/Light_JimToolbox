@@ -1,6 +1,6 @@
 Light_JimToolbox
 ===========
-2021-07-08 -> 2021-07-15
+2021-07-08 -> 2021-07-27
 
 A side toolbox for your gui to help with various actions.
 
@@ -69,6 +69,10 @@ jim_toolbox_vars:
 History Log
 =============
 
+- 1.0.5 -- 2021-07-27
+
+    - update templates, add $_jimToolboxOffset50 config variable
+  
 - 1.0.4 -- 2021-07-15
 
     - update templates, add $_jimToolboxIsVisible config variable

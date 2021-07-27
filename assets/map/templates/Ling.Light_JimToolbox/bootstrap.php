@@ -35,6 +35,11 @@ if (false === isset($_jimToolboxIsVisible)) {
 }
 
 
+if (false === isset($_jimToolboxOffset50)) {
+    $_jimToolboxOffset50 = false;
+}
+
+
 //--------------------------------------------
 //
 //--------------------------------------------
@@ -91,7 +96,7 @@ $items = $_ji->getJimToolboxItems([
     <div class="toolbox-panel">
 
 
-        <div class="toolbox-content">
+        <div class="toolbox-content <?php echo $_jimToolboxOffset50 ? "offset-50" : ""; ?>">
 
 
             <div class="toolbox-module" data-id="_acp">
